@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+::selection {
+  background-color: #ebd6fb;
+  color: black;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ebd6fb;
+  font-family: cursive;
+}
+
+.container {
+  width: 40%;
+  padding: 50px;
+  background-color: #bc95da;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.266);
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  color: black;
+  font-size: 19px;
+  border: #bc95da 1px solid;
+  display: block;
+}
+
+input:focus {
+  outline: none;
+}
+
+.content {
+  text-align: center;
+}
+
+p,
+h1 {
+  text-align: center;
+  color: black;
+}
+/* --------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------- */
+@media (min-width: 1200px) {
+}
+
+/* --------------------------------------------------------------------------------- */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container {
+    width: 50%;
+  }
+}
+
+/* --------------------------------------------------------------------------------- */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container {
+    width: 60%;
+  }
+}
+
+/* --------------------------------------------------------------------------------- */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/* --------------------------------------------------------------------------------- */
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .container {
+    width: 100%;
+  }
+}
