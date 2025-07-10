@@ -24,7 +24,7 @@ input.addEventListener("keydown", function (e) {
             document.querySelector(".content").innerHTML = `
           <p>${words[0].shortdef[0]}</p>
           <audio controls
-          src=https://media.merriam-webster.com/audio/prons/en/us/mp3/${words[0].meta.id[0]}/${words[0].hwi.prs[0].sound.audio}.mp3>
+          src=https://media.merriam-webster.com/audio/prons/en/us/mp3/${words[0].hwi.prs[0].sound.audio[0]}/${words[0].hwi.prs[0].sound.audio}.mp3>
           </audio>
         `;
           } else if (words[0].meta.id === input.value.toLowerCase()) {
